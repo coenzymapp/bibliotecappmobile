@@ -1,0 +1,37 @@
+{
+  "name": "uiriid-web",
+  "version": "1.0.0",
+  "description": "una app web de intercambio",
+  "main": "index.js",
+  "dependencies": {
+    "bcrypt": "^3.0.8",
+    "bcrypt-nodejs": "^0.0.3",
+    "body-parser": "^1.19.0",
+    "cloudinary": "^1.22.0",
+    "connect-multiparty": "^2.2.0",
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.2",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "fs-extra": "^9.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "jwt-simple": "^0.5.6",
+    "moment": "^2.24.0",
+    "mongoose": "^5.11.4",
+    "mongoose-pagination": "^1.0.0",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.4.11",
+    "nodemon": "^2.0.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "libros",
+    "intercambio"
+  ],
+  "author": "Rachid Oulgour",
+  "license": "ISC"
+}
